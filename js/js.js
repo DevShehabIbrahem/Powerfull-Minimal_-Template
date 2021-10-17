@@ -18,3 +18,13 @@ let drop = document.querySelector(".dropdown"),
   hide = document.querySelector(".dropdown-menu");
 
 hide.classList.add("animate__bounceInUp");
+  var shehab= 2
+  if(shehab == "2"){
+    
+    console.log("false");
+
+
+  }
+  function name(params) {
+    
+  }
