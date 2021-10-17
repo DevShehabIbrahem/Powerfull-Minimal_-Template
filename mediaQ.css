@@ -1,0 +1,49 @@
+/* Start upbar media */
+@media (max-width: 478px) {
+  .up-bar .upbar-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .up-bar .upbar-info > div {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  .up-bar .upbar-info > span {
+    display: none;
+  }
+}
+
+/*end upbar media */
+
+/* Start main-carousel */
+
+@media (max-width: 478px) {
+  .carousel-text {
+    text-align: center;
+    /* font-size: 16px; */
+    color: #fff;
+    top: 16%
+}  }
+  .carousel-text h1 {
+    font-size: 35px;
+    margin-bottom: 40px;
+
+  }
+  .carousel-text p {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+  
+  .carousel-text a {
+    background-color: #ffc527;
+    padding: 11px;
+    /* display: inline-block; */
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #222;
+  }
+}
