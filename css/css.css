@@ -60,6 +60,18 @@ body {
   height: 100vh;
   background-size: cover;
 }
+.carousel-text h1 {
+}
+.carousel-text p {
+}
+.carousel-text a {
+  background-color: #ffc527;
+  padding: 11px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #222;
+}
 .carousel-item.one {
   background-image: url(../image/slide-bg-1.jpg);
 }
@@ -71,3 +83,42 @@ body {
 }
 
 /* end main-carousel */
+
+/* start DONE & DUSTED */
+.done-dusted .done-btn {
+  background-color: #ffc527;
+  padding: 11px;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #222;
+}
+.done-title {
+  position: relative;
+}
+.done-title h2::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  height: 4px;
+  width: 120px;
+  background-color: #ffc527;
+  right: 0;
+}
+/* end DONE & DUSTED */
+
+/* start carousel-done*/
+.carousel-item {
+}
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: #ccc;
+  opacity: 0.5;
+  height: 50px;
+  width: 50px;
+  top: 20%;
+  border: 0 none;
+  border-radius: 50%;
+}
+
+/*end carousel-done*/
