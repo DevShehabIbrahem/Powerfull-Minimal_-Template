@@ -22,7 +22,6 @@
 @media (max-width: 478px) {
   .carousel-text {
     text-align: center;
-    /* font-size: 16px; */
     color: #fff;
     top: 16%;
   }
@@ -37,11 +36,11 @@
   margin-bottom: 30px;
 }
 
-/* start DONE & DUSTED */
+/* start DONE & DUSTED carousel */
 @media (max-width: 478px) {
   .carousel-control-next,
   .carousel-control-prev {
     top: 10% !important;
   }
 }
-/* end DONE & DUSTED */
+/* end DONE & DUSTED carousel */
