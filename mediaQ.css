@@ -38,9 +38,18 @@
 
 /* start DONE & DUSTED carousel */
 @media (max-width: 478px) {
+  .carousel-inner {
+    margin-bottom: 50px;
+  }
   .carousel-control-next,
   .carousel-control-prev {
-    top: 10% !important;
   }
 }
 /* end DONE & DUSTED carousel */
+/* start  Best-Construction */
+@media (max-width: 478px) {
+  .three-images .single-block {
+    margin: 0px 17px 15px;
+  }
+}
+/* end  Best-Construction */

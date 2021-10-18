@@ -56,7 +56,7 @@ body {
   z-index: 2;
 }
 
-.carousel-item {
+.carousel-main .carousel-item {
   height: 100vh;
   background-size: cover;
 }
@@ -108,6 +108,7 @@ body {
 /* end DONE & DUSTED */
 
 /* start carousel-done*/
+
 .carousel-item {
 }
 .carousel-control-next,
@@ -122,3 +123,74 @@ body {
 }
 
 /*end carousel-done*/
+/*Start Best-Construction*/
+.Best-Construction {
+  background-color: #eee;
+}
+.Best-Construction .cards {
+  margin: auto;
+  padding: 20px;
+}
+.Best-Construction .cards .card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.Best-Construction .card-btn {
+  display: inline-block;
+  border: 1px solid #222;
+  padding: 10px;
+  font-size: 14px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+.Best-Construction .card-btn:hover {
+  color: #fff;
+  background-color: #222;
+  transition: 0.5s ease-in-out;
+}
+
+.Best-Construction .image {
+  height: 182px;
+  background-size: cover;
+}
+.Best-Construction .card-one .image {
+  background-image: url(../image/service-item-bg-1.jpg);
+}
+.Best-Construction .card-tow .image {
+  background-image: url(../image/service-item-bg-2.jpg);
+}
+
+/*  Best-Construction three images*/
+
+.three-images .best-title {
+  margin-bottom: 32px;
+  position: relative;
+}
+.three-images .best-title::after {
+  content: "";
+  position: absolute;
+  top: 37px;
+  height: 4px;
+  width: 70px;
+  background-color: #ffc527;
+  right: 0;
+}
+.three-images img {
+  float: right;
+  margin-left: 21px;
+}
+.three-images .single-block {
+  color: #222;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+.three-images .single-block:not(:last-child) {
+  color: #222;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+/*End Best-Construction*/
