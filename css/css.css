@@ -6,6 +6,11 @@ body {
   font-family: "Roboto", sans-serif;
   height: 5000px;
 }
+/*dafault*/
+.space-45 {
+  height: 45px;
+}
+/*dafault*/
 /*Start Upbar*/
 .up-bar {
   color: #fff;
@@ -224,3 +229,31 @@ body {
   max-width: 100%;
 }
 /* end WHY CHOOSE US*/
+
+/* start icons*/
+.icons .three-icons .icons-text {
+  padding-right: 66px;
+}
+.icons .three-icons .icons-text h3 {
+  font-weight: 400;
+}
+.icons .three-icons .icons-text p {
+  line-height: 28px;
+}
+.icons .three-icons .icon {
+  position: relative;
+}
+.icons .three-icons .icon .single-icon {
+  background-color: #ffc527;
+  padding: 17px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 26px;
+  display: inline-block;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  line-height: 30px;
+  top: 0;
+}
+/* end icons*/
