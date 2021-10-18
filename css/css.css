@@ -161,6 +161,9 @@ body {
 }
 
 /*  Best-Construction three images*/
+.Best-images {
+  margin-left: 2rem;
+}
 
 .three-images .best-title {
   margin-bottom: 32px;
