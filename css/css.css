@@ -200,3 +200,27 @@ body {
 }
 
 /*End Best-Construction*/
+/*start  WHY CHOOSE US*/
+.why-choode-us .choose-title {
+  position: relative;
+}
+.why-choode-us .choose-title::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  height: 4px;
+  width: 120px;
+  background-color: #ffc527;
+  right: 13px;
+}
+.why-choode-us .choose-text h3 {
+  font-weight: 400;
+}
+.why-choode-us .choose-title p {
+  margin-right: 10px;
+}
+
+.why-choode-us img {
+  max-width: 100%;
+}
+/* end WHY CHOOSE US*/
