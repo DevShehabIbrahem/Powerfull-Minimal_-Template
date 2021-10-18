@@ -126,6 +126,7 @@ body {
 /*Start Best-Construction*/
 .Best-Construction {
   background-color: #eee;
+  padding: 30px 0;
 }
 .Best-Construction .cards {
   margin: auto;
@@ -164,11 +165,14 @@ body {
 .Best-images {
   margin-left: 2rem;
 }
+.Best-images .three-images .single-block p {
+  font-size: 14px;
+  font-weight: 600;
+}
 
 .three-images .best-title {
   margin-bottom: 32px;
   position: relative;
-  margin-right: 50px;
 }
 .three-images .best-title::after {
   content: "";
