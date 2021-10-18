@@ -50,10 +50,11 @@
 
 @media (max-width: 478px) {
   .Best-Construction {
-    overflow-x: hidden;
+    width: 111%;
   }
+
   .three-images .single-block {
-    margin: 0px 17px 15px;
+    margin: 0px 54px 17px 0;
   }
 }
 
