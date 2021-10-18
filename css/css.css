@@ -127,6 +127,7 @@ body {
 .Best-Construction {
   background-color: #eee;
   padding: 30px 0;
+  overflow-x: hidden;
 }
 .Best-Construction .cards {
   margin: auto;
