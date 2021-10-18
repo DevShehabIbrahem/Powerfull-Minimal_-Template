@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+
   height: 5000px;
 }
 /*Start Upbar*/
