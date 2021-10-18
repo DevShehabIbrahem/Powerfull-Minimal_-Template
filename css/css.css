@@ -166,7 +166,6 @@ body {
 .three-images .best-title {
   margin-bottom: 32px;
   position: relative;
-  margin-right: 16px;
 }
 .three-images .best-title::after {
   content: "";
