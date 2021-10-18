@@ -49,6 +49,9 @@
 /* start  Best-Construction */
 
 @media (max-width: 478px) {
+  .Best-Construction {
+    overflow-x: hidden;
+  }
   .three-images .single-block {
     margin: 0px 17px 15px;
   }

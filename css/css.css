@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -127,7 +126,6 @@ body {
 /*Start Best-Construction*/
 .Best-Construction {
   background-color: #eee;
-  width: 100%;
 }
 .Best-Construction .cards {
   margin: auto;
