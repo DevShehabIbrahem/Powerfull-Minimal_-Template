@@ -4,7 +4,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
   height: 5000px;
 }
 /*Start Upbar*/
@@ -115,9 +114,9 @@ body {
 .carousel-control-prev {
   background-color: #ccc;
   opacity: 0.5;
-  height: 50px;
-  width: 50px;
-  top: 30%;
+  height: 40px;
+  width: 40px;
+  top: 35%;
   border: 0 none;
   border-radius: 50%;
 }
@@ -127,7 +126,6 @@ body {
 .Best-Construction {
   background-color: #eee;
   padding: 30px 0;
-  overflow-x: hidden;
 }
 .Best-Construction .cards {
   margin: auto;
