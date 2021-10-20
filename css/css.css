@@ -298,3 +298,60 @@ body {
 }
 
 /* end OUR TESTIMONIALS*/
+
+/*start  SUBSCRIBE*/
+.subscrib-cover {
+  background-image: url(../image/subscribe-our-newsletter-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 502px;
+}
+.subscrib-cover .subscrib-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.subscrib-cover .subscrib-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.subscrib-tablecell .search {
+  outline: 0;
+  background-color: #e2d1b3;
+  border: 0;
+}
+.subscrib-tablecell .info h3,
+.subscrib-tablecell .info p {
+  text-shadow: 0 0 11px #000;
+}
+
+/*end  SUBSCRIBE*/
+/* start LATEST NEWS */
+.lastest-news .lastest-title {
+  position: relative;
+}
+.lastest-news .our-cards .card-body h3 {
+  font-size: 18px;
+  padding-top: 12px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.lastest-news .our-cards .card {
+  background: #f2f2f2;
+}
+.lastest-news .our-cards .card .lastest-btn {
+  background: 0;
+  color: #000;
+  border: 0;
+}
+.lastest-news .lastest-title p::after {
+  content: "";
+  position: absolute;
+  top: 3rem;
+  height: 4px;
+  width: 120px;
+  background-color: #ffc527;
+  right: 0;
+}
+
+/*end LATEST NEWS */
