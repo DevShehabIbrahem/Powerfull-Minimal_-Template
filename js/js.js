@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {
-      $(".test").show();
-    } else $(".test").hide();
+      $(".scrol").show();
+    } else $(".scrol").hide();
   });
-  $(".test").click(function () {
+  $(".scrol").click(function () {
     $("body,html").animate(
       {
         scrollTop: 0,
