@@ -68,13 +68,20 @@ body {
 /*ُEnd Upbar*/
 
 /* Start main-carousel */
-
+.carousel-main {
+  overflow: hidden;
+}
 .carousel {
   position: relative;
 }
 .carousel-text {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
 
 .carousel-main .carousel-item {
@@ -82,8 +89,13 @@ body {
   background-size: cover;
 }
 .carousel-text h1 {
+  font-size: 22px;
+  margin-bottom: 27px;
 }
 .carousel-text p {
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 27px;
 }
 .carousel-text a {
   background-color: #ffc527;

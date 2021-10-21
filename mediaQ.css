@@ -15,7 +15,7 @@
 
 /* Start main-carousel */
 
-@media (max-width: 478px) {
+/* @media (max-width: 478px) {
   .carousel-text {
     text-align: center;
     color: #fff;
@@ -23,26 +23,15 @@
   }
 }
 .carousel-text h1 {
-  font-size: 35px;
+  font-size: 30px !important;
   margin-bottom: 40px;
 }
 .carousel-text p {
-  font-size: 16px;
+  font-size: 16px !important;
   line-height: 2;
   margin-bottom: 30px;
-}
-@media (min-width: 320px) {
-  .carousel-text {
-    color: #fff;
-    top: 18%;
-    left: 0;
-  }
-  .carousel-text h1 {
-    font-size: 26px;
-  }
-  .carousel-text p {
-    font-size: 15px;
-  }
+} */
+
 
   @media (min-width: 768px) {
     .carousel-text {
@@ -52,24 +41,24 @@
       left: 0%;
     }
     .carousel-text h1 {
-      font-size: 43px;
+      font-size: 43px !important;
     }
     .carousel-text p {
-      font-size: 23px;
+      font-size: 23px !important;
     }
   }
 
   @media (min-width: 992px) {
     .carousel-text {
-      color: #fff;
+      color: #fff ;
       top: 16%;
       left: 14%;
     }
     .carousel-text h1 {
-      font-size: 47px;
+      font-size: 47px !important;
     }
     .carousel-text p {
-      font-size: 23px;
+      font-size: 23px !important;
     }
   }
 
