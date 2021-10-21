@@ -1,16 +1,12 @@
-/* Start upbar media */
+/* Start up bar media */
 @media (max-width: 478px) {
-  .up-bar .upbar-info {
-    display: flex;
-    flex-direction: column;
+  .up-bar {
+    display: none;
   }
-  .up-bar .upbar-info > div {
-    font-size: 12px;
-    margin-bottom: 10px;
-    margin-left: 70px;
-    text-align: center;
-  }
-  .up-bar .upbar-info > span {
+}
+
+@media (min-width: 320px) {
+  .up-bar {
     display: none;
   }
 }
@@ -35,25 +31,66 @@
   line-height: 2;
   margin-bottom: 30px;
 }
+@media (min-width: 320px) {
+  .carousel-text {
+    color: #fff;
+    top: 18%;
+    left: 0;
+  }
+  .carousel-text h1 {
+    font-size: 26px;
+  }
+  .carousel-text p {
+    font-size: 15px;
+  }
 
-/* start DONE & DUSTED carousel */
+  @media (min-width: 768px) {
+    .carousel-text {
+      text-align: center;
+      color: #fff;
+      top: 27%;
+      left: 0%;
+    }
+    .carousel-text h1 {
+      font-size: 43px;
+    }
+    .carousel-text p {
+      font-size: 23px;
+    }
+  }
 
-@media (max-width: 478px) {
-  .carousel-inner {
-    margin-bottom: 50px;
+  @media (min-width: 992px) {
+    .carousel-text {
+      color: #fff;
+      top: 16%;
+      left: 14%;
+    }
+    .carousel-text h1 {
+      font-size: 47px;
+    }
+    .carousel-text p {
+      font-size: 23px;
+    }
+  }
+
+  /* start DONE & DUSTED carousel */
+
+  @media (max-width: 478px) {
+    .carousel-inner {
+      margin-bottom: 50px;
+    }
+  }
+
+  /* end DONE & DUSTED carousel */
+
+  /* start  Best-Construction */
+
+  @media (max-width: 478px) {
+    .Best-Construction {
+    }
+
+    .three-images .single-block {
+    }
   }
 }
-
-/* end DONE & DUSTED carousel */
-
-/* start  Best-Construction */
-
-@media (max-width: 478px) {
-  .Best-Construction {
-  }
-
-  .three-images .single-block {
-  }
-}
-
 /* end  Best-Construction */
