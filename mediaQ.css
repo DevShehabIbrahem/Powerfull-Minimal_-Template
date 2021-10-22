@@ -75,3 +75,39 @@
   }
 }
 /*end WHY CHOOSE US */
+
+/* start OUR TESTIMONIALS*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .our-testimonials .row {
+    justify-content: right;
+    align-items: center;
+  }
+}
+
+@media (max-width: 478px) {
+  .our-testimonials .testimonials-title p::after {
+    right: 3px !important;
+  }
+  .our-testimonials .testimonials-title p {
+    font-size: 26px !important;
+  }
+}
+/* end OUR TESTIMONIALS*/
+
+/*start lastest*/
+
+@media only screan and (min-width: 576px) and (max-width: 767px) {
+  .lastest-news .our-cards .card {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .lastest-news .our-cards .card {
+    flex: 1;
+  }
+  .our-cards .card {
+    margin-left: 25px;
+  }
+}
+
+/*end lastest*/

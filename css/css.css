@@ -273,6 +273,7 @@ body {
 }
 .why-choode-us .choose-us-blocks {
   margin-top: 22px;
+  overflow: hidden;
 }
 /* end WHY CHOOSE US*/
 
@@ -320,10 +321,16 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 24%;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+}
+.our-testimonials .cyrcle-img img {
+  max-width: 100%;
 }
 .our-testimonials .text-images {
-  padding-right: 87px;
+  padding-right: 107px;
+  width: 99%;
 }
 .our-testimonials .text-images p {
   font-style: italic;
@@ -335,7 +342,7 @@ body {
 .our-testimonials .testimonials-title {
   position: relative;
   margin-bottom: 3rem;
-  margin-right: 10px;
+
   text-transform: uppercase;
 }
 
@@ -386,7 +393,7 @@ body {
   font-size: 27px;
 }
 .lastest-news .our-cards .card-body h3 {
-  font-size: 18px;
+  font-size: 17px;
   padding-top: 12px;
   font-weight: 600;
   line-height: 24px;
@@ -404,6 +411,10 @@ body {
   color: #000;
   border: 0;
 }
+.our-cards .edit-cards {
+  justify-content: center;
+}
+
 .lastest-news .lastest-title p::after {
   content: "";
   position: absolute;
