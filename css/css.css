@@ -192,7 +192,12 @@ body {
 .Best-Construction .image {
   height: 182px;
   background-size: cover;
+  background-position: center;
 }
+.Best-Construction .card-tow {
+  padding-left: 15px;
+}
+
 .Best-Construction .card-one .image {
   background-image: url(../image/service-item-bg-1.jpg);
 }
@@ -201,9 +206,7 @@ body {
 }
 
 /*  Best-Construction three images*/
-.Best-images {
-  margin-left: 2rem;
-}
+
 .Best-images .three-images .single-block p {
   font-size: 13px;
   font-weight: 600;
@@ -241,6 +244,7 @@ body {
 
 /*End Best-Construction*/
 /*start  WHY CHOOSE US*/
+
 .why-choode-us .choose-title {
   position: relative;
 }
@@ -263,9 +267,19 @@ body {
 .why-choode-us img {
   max-width: 100%;
 }
+.why-choode-us .choose-image img {
+  float: right;
+  margin-left: 15px;
+}
+.why-choode-us .choose-us-blocks {
+  margin-top: 22px;
+}
 /* end WHY CHOOSE US*/
 
 /* start icons*/
+/* .icons .three-icons .nowrap {
+  flex-wrap: nowrap;
+} */
 .icons .three-icons .icons-text {
   padding-right: 78px;
 }

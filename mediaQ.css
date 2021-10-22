@@ -65,3 +65,13 @@
 }
 
 /* end  Best-Construction */
+
+/*start WHY CHOOSE US */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .why-choode-us .choose-us-blocks .choose-one img,
+  .why-choode-us .choose-us-blocks .choose-tow img {
+    width: 100%;
+  }
+}
+/*end WHY CHOOSE US */
