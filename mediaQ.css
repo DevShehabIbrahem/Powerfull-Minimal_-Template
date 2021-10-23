@@ -96,11 +96,6 @@
 
 /*start lastest*/
 
-@media only screan and (min-width: 576px) and (max-width: 767px) {
-  .lastest-news .our-cards .card {
-    width: 100%;
-  }
-}
 @media (min-width: 768px) {
   .lastest-news .our-cards .card {
     flex: 1;
@@ -109,5 +104,44 @@
     margin-left: 25px;
   }
 }
-
+@media only screan and (min-width: 576px) and (max-width: 767px) {
+  .lastest-news .our-cards .card {
+    width: 100%;
+  }
+}
 /*end lastest*/
+
+/*statr subscripe*/
+@media (min-width: 992px) {
+  .subscrib-cover .info p {
+    padding: 0 12rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .subscrib-cover .form-co .sub-btn,
+  .subscrib-cover .form-co .sub-input {
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .subscrib-cover .form-co .sub-btn button,
+  .subscrib-cover .form-co .sub-input input {
+    border-radius: 0;
+  }
+  .subscrib-cover .info h1 {
+    font-size: 33px !important;
+  }
+  .subscrib-cover .info p {
+    width: 100% !important;
+  }
+}
+
+/*end subscripe*/
+/*start footer*/
+@media (min-width: 320px) {
+  footer .footer-form input {
+    width: 100%;
+  }
+}
+
+/*end footer*/
