@@ -67,6 +67,26 @@ body {
 }
 /*ُEnd Upbar*/
 
+/*start navbar*/
+.navbar-nav {
+  padding-top: 1px;
+}
+.navbar-nav .dropdown-menu a:hover {
+  padding-left: 12px;
+  transition: 0.5s;
+  border-bottom: 1px solid #000;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: #00000014;
+  margin-left: 11px;
+  border-bottom: 1px solid #7a1818;
+  transition: 0.5s;
+}
+.navbar-nav .nav-item .nav-link {
+  margin-left: 11px;
+}
+
+/*end navbar*/
 /* Start main-carousel */
 .carousel-main {
   overflow: hidden;
@@ -104,6 +124,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   color: #222;
+  text-decoration: none;
 }
 .carousel-item.one {
   background-image: url(../image/slide-bg-1.jpg);
@@ -128,6 +149,7 @@ body {
   text-transform: capitalize;
   font-weight: 600;
   color: #222;
+  text-decoration: none;
 }
 .done-title {
   position: relative;
@@ -304,8 +326,6 @@ body {
 }
 /* end icons*/
 /* start OUR TESTIMONIALS*/
-.our-testimonials {
-}
 .our-testimonials .cyrcle-img {
   position: relative;
 }
@@ -520,5 +540,3 @@ footer .footer-copyright {
 footer .footer-copyright a {
   text-decoration: none;
 }
-
-/*end  footer */
